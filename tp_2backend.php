@@ -9,45 +9,45 @@
 <body>
     <h1>1)</h1>
     <?php
-    $n = int();
+    $n = (3);
     if ($n > 0) {
-        echo "$n es un número positivo";
+        echo "$n" + "es un número positivo";
     }
     ?>
-   <hr>
+    <hr>
     <h2>2)</h2>
     <?php
-    $n = int();
+    $n = (int)(5);
     if (($n > 1) and ($n < 10)) {
         echo "está entre uno y diez";
     } else {
         echo "no está entre uno y diez";
     }
     ?>
-   <hr>
+    <hr>
     <h3>3)</h3>
     <?php
-    $n = int();
+    $n = (int)(8);
     if (($n > 10) or ($n < 2)) {
         echo "número válido";
     } else {
         echo "está entre dos y diez";        
     }
-    ?>
-   <hr>
+    ?> 
+    <hr>
     <h4>4)</h4)
     <?php
-    $numero1 = int();
-    $numero2 = int();
+    $numero1 = (int)(9);
+    $numero2 = (int)(4);
     $s = $numero1 + $numero2;
     $r = $numero1 - $numero2;
     $m = $numero1 * $numero2;
     $d = $numero2 / $numero1;
     $mod = $numero2 % $numero1;
     if ($numero1 > $numero2) {
-        echo $s;\n$r;        
+        echo $s, $r;        
     } elseif ($numero2 > $numero1) {
-        echo $m;\n$d;\n$mod;
+        echo $m, $d, $mod;
     } else {
         echo "Los números ingresados son iguales";
     }

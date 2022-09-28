@@ -17,6 +17,7 @@
    $bienvenida = "Hola mundo";
    print "<p>$bienvenida</p>\n";
    ?>
+   <hr>
    <h4>ejercicio 3</h4>
    <?php
    $x = 24;
